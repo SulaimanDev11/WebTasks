@@ -1,0 +1,112 @@
+*{
+	border:0px;
+	font-family:arial;
+}
+#logo{
+	width:200px;
+	height:65px;
+}
+.List{
+	list-style-type:none;
+}
+#nav{
+	background-color:#0c70ae;
+	width:100%;
+	height:65px;
+	
+}
+a:link{
+	float:left;
+	color:white;
+	display:block;
+	text-decoration:none;
+	margin-left:50px;
+	padding:10px;
+}
+a:visited{
+	color:white;
+}
+#title1{
+	font-size:75px;
+	color:#424242;
+	margin:0px;
+	margin-left:50px;
+	height:60px;
+}
+#title2{
+	font-size:20px;
+	color:#336888;
+	margin-left:50px;
+}
+#tech{
+	border:1px solid black;
+	float:right;
+	padding:10px;
+	margin-right:100px;
+}
+#tool{
+	margin-top:300px;
+	font-size:30px;
+	color:#336888;
+	margin-left:50px;
+}
+#skill{
+	font-size:30px;
+	color:#336888;
+	margin-left:50px;
+}
+#education{
+	font-size:30px;
+	color:#336888;
+	margin-left:50px;
+}
+.pics{
+	margin-top:0px;
+	margin-left:150px;
+	width:175px;
+	height:175px;
+}
+#per70{
+	background-color:#2499cf;
+	width:400px;
+	height:40px;
+	font-size:30px;
+	color:white;
+	text-align:center;
+	margin-left:150px;
+	padding:auto;
+}
+#per89{
+	background-color:#2499cf;
+	width:450px;
+	height:40px;
+	font-size:30px;
+	color:white;
+	text-align:center;
+	margin-left:150px;
+	padding:auto;
+}
+#per30{
+	background-color:#114d93;
+	width:200px;
+	height:40px;
+	font-size:30px;
+	color:white;
+	text-align:center;
+	margin-left:150px;
+	padding:auto;
+}
+table, th, tr,td{
+	border:1px solid #c1c1c1;
+	border-collapse:collapse;
+	margin-left:150px;
+	height:40px;
+}
+th{
+	background-color:#106eab;
+	color:white;
+	height:40px;
+}
+table#tbl tr:nth-child(odd){
+	background-color:#c0dcea;
+}
