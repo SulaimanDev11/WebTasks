@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shifted and scaleed Random integers</title>
+<script language="javascript">
+	var value;
+	document.writeln("<h1>Randdom Numbers </h1>" +
+		"<table border = '1' width ='50%'><tr>");
+
+	for (var i = 1; i <= 20; i++){
+		value=math.floor(1 + math.random() * 6);
+		document.writeln("<td>" + value + "</td>");
+
+		if(i % 5 == 0 && i != 20)
+			document.writeln("</tr><tr>");
+	}
+	document.writeln("</tr></table>");
+	}
+</script>
+</head>
+<body>
+<p>Click refresh (or reload) to run the script again</p>
+</body>
+</html>
