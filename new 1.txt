@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+</style>
+</head>
+<body>
+<table style="width:100%;">
+<caption>Student Record</caption>
+	<tr>
+		<th rowspan="2">Telephone<th>
+		<th>Telephone<th>
+	</tr>
+	<tr>
+		<td>Sulaiman<td>
+		<td>0302154854<td>
+		<td>03021545202<td>
+	</tr>
+</table>
+</body>
+</html>
